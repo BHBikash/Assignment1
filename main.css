@@ -1,0 +1,62 @@
+/* styles.css */
+
+/* Apply a margin of 20px to the body */
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Wrapper to apply margin to content */
+.wrapper {
+    margin: 0 20px; /* Margin of 20px on both sides */
+}
+
+/* Make the navbar sticky */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1020; /* Ensure navbar stays on top of other elements */
+}
+
+/* Apply consistent padding to the container */
+.container {
+    padding: 0; /* Remove default padding to fit within the wrapper */
+}
+
+/* Add padding inside elements */
+.custom-padding {
+    padding: 20px;
+}
+
+/* Add margin top and bottom */
+.custom-margin {
+    margin: 20px 0;
+}
+
+/* Center-align elements */
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Style for section headings */
+.section-heading {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners for the background */
+    font-size: 1.5rem; /* Increase font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center text */
+    margin: 0 auto; /* Center the heading */
+    width: fit-content; /* Adjust width to fit the content */
+}
+
+/* Style for ordered list */
+.ordered-list {
+    list-style-position: inside; /* Place list numbers inside the padding area */
+    padding-left: 0; /* Remove default padding */
+    margin-left: auto; /* Center the list */
+    margin-right: auto; /* Center the list */
+}
